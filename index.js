@@ -26,7 +26,7 @@ app.use('/profile', profileRoute);
 const blogRoute = require('./routes/blogpost');
 app.use('/blogPost', blogRoute);
 
-app.route('/').get((req, res) => res.json('Hello World!'));
+app.route('/').get((req, res) => res.json('Hello World! This is the API created using Node Js and deployed over AWS server'));
 // app.listen(port, () => console.log(`Your server is running on port ${port}`));
 
 // Added 0.0.0.0 to run server from local ip address
